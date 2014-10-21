@@ -14,6 +14,9 @@
 #define ARDUINO_MAIN
 #define __AVR__
 #define __avr__
+#define F_CPU 96000000
+#define USB_SERIAL_HID
+#define LAYOUT_US_ENGLISH
 #define __cplusplus
 #define __MK20DX256__
 #define TEENSYDUINO 120
